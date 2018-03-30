@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_8488_watson.Ticket</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>Ticket</name>
+        <script><![CDATA[var Ticket = Class.create();
+Ticket.prototype = {
+	initialize: function() {
+	},
+
+	create: function(request) {
+		gs.info('WA | It Worked!');
+		gs.info('WA | Parsed ' + JSON.stringify(request));
+
+		var gr = new GlideRecord('incident');
+		gr.initialize();
+		gr.short_description = "Watson Ticket";
+		var inc = gr.insert();
+		
+		var lookup = new GlideRecord('incident');
+		lookup.get(inc);
+
+		var answer = {};
+		answer.http_status = "200";
+		answer.status_message = "Payload accepted and processed. Created " + lookup.number;
+
+		gs.debug('WA| ' + JSON.stringify(answer));
+		return answer;
+	},
+
+	type: 'Ticket'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-30 11:54:08</sys_created_on>
+        <sys_id>b9483f57db01130003b0d730cf96199b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Ticket</sys_name>
+        <sys_package display_value="watson" source="x_8488_watson">2a27b713db01130003b0d730cf961960</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="watson">2a27b713db01130003b0d730cf961960</sys_scope>
+        <sys_update_name>sys_script_include_b9483f57db01130003b0d730cf96199b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-30 12:08:41</sys_updated_on>
+    </sys_script_include>
+</record_update>
