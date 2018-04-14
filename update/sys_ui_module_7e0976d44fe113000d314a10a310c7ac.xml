@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Watson Ticket">ba0976d44fe113000d314a10a310c7aa</application>
+        <filter/>
+        <name>Choices</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_8488_watson.uc_manager</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-14 20:06:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7e0976d44fe113000d314a10a310c7ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Choices</sys_name>
+        <sys_package display_value="watson" source="x_8488_watson">2a27b713db01130003b0d730cf961960</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="watson">2a27b713db01130003b0d730cf961960</sys_scope>
+        <sys_update_name>sys_ui_module_7e0976d44fe113000d314a10a310c7ac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-14 20:06:08</sys_updated_on>
+        <table>x_8488_watson_choices</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

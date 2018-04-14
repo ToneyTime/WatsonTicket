@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="subcategory" label="Subcategory" language="en" table="x_8488_watson_uc_defintiion">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>subcategory</element>
+            <help/>
+            <hint/>
+            <label>Subcategory</label>
+            <language>en</language>
+            <name>x_8488_watson_uc_defintiion</name>
+            <plural>Subcategories</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-14 20:06:29</sys_created_on>
+            <sys_id>8c29bed44fe113000d314a10a310c77b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Subcategory</sys_name>
+            <sys_package display_value="watson" source="x_8488_watson">2a27b713db01130003b0d730cf961960</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="watson">2a27b713db01130003b0d730cf961960</sys_scope>
+            <sys_update_name>sys_documentation_x_8488_watson_uc_defintiion_subcategory_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-14 20:06:29</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

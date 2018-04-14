@@ -21,9 +21,11 @@
 	
 	response.setStatus(statusReturned.http_status);
 	response.setContentType('application/json');
-	
+	gs.info('08. WA | est response');
 	var writer = response.getStreamWriter();
 	writer.writeString(JSON.stringify(statusReturned));
+	
+	gs.info('00. WA | Resp = ' + JSON.stringify(statusReturned));
 
 })(request, response);]]></operation_script>
         <operation_uri>/api/x_8488_watson/v1/watson/ticket/create</operation_uri>
@@ -38,14 +40,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-03-30 11:50:43</sys_created_on>
         <sys_id>35a77757db01130003b0d730cf96198f</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>create</sys_name>
         <sys_package display_value="watson" source="x_8488_watson">2a27b713db01130003b0d730cf961960</sys_package>
         <sys_policy/>
         <sys_scope display_value="watson">2a27b713db01130003b0d730cf961960</sys_scope>
         <sys_update_name>sys_ws_operation_35a77757db01130003b0d730cf96198f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-30 12:02:46</sys_updated_on>
+        <sys_updated_on>2018-04-14 20:40:43</sys_updated_on>
         <web_service_definition display_value="Watson">12677357db01130003b0d730cf961914</web_service_definition>
         <web_service_version display_value="v1">cb773717db01130003b0d730cf961999</web_service_version>
     </sys_ws_operation>
