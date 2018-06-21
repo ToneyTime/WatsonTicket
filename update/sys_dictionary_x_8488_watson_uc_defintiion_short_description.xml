@@ -54,15 +54,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-04-14 20:03:43</sys_created_on>
-        <sys_id>f968be944fe113000d314a10a310c746</sys_id>
+        <sys_id>134bc194db3213009614fe1b68961943</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Short Description</sys_name>
         <sys_package display_value="watson" source="x_8488_watson">2a27b713db01130003b0d730cf961960</sys_package>
         <sys_policy/>
         <sys_scope display_value="watson">2a27b713db01130003b0d730cf961960</sys_scope>
         <sys_update_name>sys_dictionary_x_8488_watson_uc_defintiion_short_description</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-04-14 20:03:43</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-06-15 15:25:10</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
