@@ -37,6 +37,7 @@ Ticket.prototype = {
 			gr.category = uc.category;
 			gr.subcategory = uc.subcategory;
 			gr.assignment_group = uc.assignment_group;
+			//gr.state = uc.state;
 			/*
 			gr.short_description = 'Payment Reminder';
 			gr.description = 'Payment Reminder generated with data';
@@ -59,6 +60,7 @@ Ticket.prototype = {
 			answer.status_message = "Payload accepted and processed. Created " + lookup.number;
 			answer.number = ''+lookup.number;
 
+
 			gs.info('06. WA | create response');
 			gs.info('WA | Returning = ' + JSON.stringify(answer));
 
@@ -73,13 +75,13 @@ Ticket.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-03-30 11:54:08</sys_created_on>
         <sys_id>b9483f57db01130003b0d730cf96199b</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_name>Ticket</sys_name>
         <sys_package display_value="watson" source="x_8488_watson">2a27b713db01130003b0d730cf961960</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="watson">2a27b713db01130003b0d730cf961960</sys_scope>
         <sys_update_name>sys_script_include_b9483f57db01130003b0d730cf96199b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-21 23:31:02</sys_updated_on>
+        <sys_updated_on>2018-08-05 16:33:37</sys_updated_on>
     </sys_script_include>
 </record_update>
